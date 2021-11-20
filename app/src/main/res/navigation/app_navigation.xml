@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ui_unittest_android.ui.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_addSpendFragment"
+            app:destination="@id/addSpendFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addSpendFragment"
+        android:name="com.example.unit_ui_testexample.ui.addspend.AddSpendFragment"
+        android:label="AddSpendFragment" />
+</navigation>

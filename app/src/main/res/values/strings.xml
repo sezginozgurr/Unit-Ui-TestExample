@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Ui-UnitTest-Android</string>
+    <string name="add_new_spend">Add a new Spend</string>
+    <string name="add_spend">Add Spend</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount</string>
+    <string name="last_20_spends">Your Last 20 Spends</string>
 </resources>
